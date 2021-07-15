@@ -1,0 +1,192 @@
+html{
+    background-color: black !important;
+}
+
+.mainVid{
+    margin: 0 auto;
+    height: 100vh;
+    text-align: center;
+    background-image: linear-gradient(90deg, rgba(217,138,34, 0.4) 0%, rgba(149,39,147,0.5) 23%, rgba(99,9,121,0.5) 48%, rgba(4,28,122,0.5) 91%), url('../img/mac1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.mainVid h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -125%);
+    font-size: 90px !important;
+}
+
+.splitSection{
+    margin: 0 auto;
+    height: 100vh;
+    color: black;
+    background-color: black;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.imgSection img{
+    height: 700px;
+    display: table;
+    margin: 0 auto;
+}
+
+.propertiesSection{
+    padding: 10px;
+    color: white;
+}
+
+.propertiesSection h1{
+    background: #D9611C;
+    background: -webkit-linear-gradient(to bottom right, #D9611C 0%, #D937D3 35%, #2AC0D1 63%, #1EC924 81%);
+    background: -moz-linear-gradient(to bottom right, #D9611C 0%, #D937D3 35%, #2AC0D1 63%, #1EC924 81%);
+    background: linear-gradient(to bottom right, #D9611C 0%, #D937D3 35%, #2AC0D1 63%, #1EC924 81%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align:center;
+}
+
+.cardSection{
+    margin-top: 150px;
+    height: 100vh;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 500px;
+}
+
+.bigCard{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 30px;
+    background: rgb(217,138,34);
+    background: linear-gradient(90deg, rgba(217,138,34,1) 0%, rgba(149,39,147,1) 23%, rgba(99,9,121,1) 48%, rgba(4,28,122,1) 91%);
+    height: auto;
+}
+
+.bigCard h1{
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+.cardBody{
+    display: flex;
+}
+
+.imgCard{
+    padding: 20px;
+    width: 50%;
+}
+
+.imgCard img{
+    width: 500px;
+    margin: 0 auto;
+    display: table;
+    margin-top: 30px;
+}
+
+.cardText{
+    width: 50%;
+    padding: 10px;
+}
+
+.bText{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bText h1{
+    font-size: 60px !important;
+    margin-right: 32px;
+    padding-top: 0; 
+}
+
+.sCards{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.sCard{
+    width: 49%;
+    border-radius: 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('../img/bg1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding-top: 5px;
+    margin-top: 25px;
+}
+
+.sCard h1{
+    margin-left: 20px;
+}
+
+.sImg{
+    margin: 0 auto;    
+    display: table;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.sImg img{
+    display: table;
+    margin: 0 auto;
+}
+
+.sText{
+    margin: 0 auto;
+    display: table;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.cardRight{
+    margin-left: auto; 
+    margin-right: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('../img/bg2.jpg');
+}
+
+.cardRight img{
+    display: table;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1023px){
+    .mainVid h1{
+        font-size: 45px !important;
+    }
+
+    .cardBody{
+        display: block;
+    }
+
+    .imgCard, .cardText{
+        width: 100%;
+    }
+
+    .cardSection{
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .sCards{
+        display: block;
+    }
+
+    .sCard{
+        width: 100%;
+    }
+}

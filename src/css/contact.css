@@ -1,0 +1,70 @@
+.bg {
+  background-color: white;
+  height: auto;
+  padding-bottom: 100px;
+}
+
+.contacts {
+  padding-top: 20px;
+  width: 60%;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: white;
+  color: black;
+}
+
+.insideContacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contacts hr {
+  background-color: #c5c5c5;
+}
+
+.midContact {
+  margin: 0 10%;
+}
+
+.contact {
+  width: 30%;
+  color: #0070c9;
+}
+
+.contactBoard {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 200px;
+  border: 1px solid #cfcfcf;
+  border-radius: 7px;
+  padding: 50px;
+}
+
+.contactBoard h1 {
+  padding: 3px;
+  color: black;
+}
+
+.contactBoard p {
+  color: #333;
+  padding: 3px;
+}
+
+.linkEmail {
+  color: #0070c9 !important;
+}
+
+@media only screen and (max-width: 1023px) {
+  .insideContacts {
+    display: block;
+  }
+  .contacts {
+    height: auto;
+  }
+  .contact {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
